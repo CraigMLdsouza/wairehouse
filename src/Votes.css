@@ -1,0 +1,21 @@
+.votes {
+    display: flex;
+    align-items: center;
+  }
+  
+  .votes button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+  
+  .votes .upvote.active,
+  .votes .downvote.active {
+    color: #e74c3c;
+  }
+  
+  .votes span {
+    margin: 0 10px;
+  }
+  
